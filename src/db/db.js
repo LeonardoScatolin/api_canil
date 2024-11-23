@@ -8,7 +8,7 @@ const connection = knex({
     host: 'database-canil.cpqyoc46ahv7.us-east-2.rds.amazonaws.com',
     port: '3306',
     user: 'admin',
-    password: 'admin',
+    password: 'canil123',
     database: 'api_canil',
   },
 });
