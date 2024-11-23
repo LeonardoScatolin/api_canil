@@ -12,7 +12,7 @@ const tipoRoutes = require('./src/routes/tipoRoutes')
 const adotanteRoutes = require('./src/routes/adotanteRoutes')
 
 const app = express();
-const PORT = process.env.PORT
+const PORT = 8080
 
 app.use(cors());
 app.use(bodyParser.json());
